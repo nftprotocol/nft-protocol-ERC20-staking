@@ -1,0 +1,29 @@
+{
+  "name": "nftprotocolstaking",
+  "version": "1.0.0",
+  "description": "https://snapshot.page/#/nft/proposal/QmPxcWrWvcUL8ijAV2ArVHpgcCzoZBYNgsjSKqBusiQVYk ## CONTRACT DEPLOYMENT ### NFT staking contract (kovan) ``` 2020-10-21T19:30:05-0400 0x73765A8d6C125CD926c015f1AB97c1608c7f8334",
+  "main": "networks.js",
+  "scripts": {
+    "test": "npm run lint:sol && bash ./test/tests.sh",
+    "lint:sol": "solhint --max-warnings 0 \"contracts/**/*.sol\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@openzeppelin/contract-loader": "^0.6.1",
+    "@openzeppelin/contracts": "^3.1.0",
+    "@openzeppelin/test-environment": "^0.1.4",
+    "@openzeppelin/test-helpers": "^0.5.6",
+    "@truffle/hdwallet-provider": "^1.0.43",
+    "chai": "^4.2.0",
+    "ganache-cli": "^6.10.1",
+    "ganache-time-traveler": "^1.0.15",
+    "husky": "^4.3.0",
+    "mocha": "^8.0.1",
+    "solidity-docgen": "^0.5.4",
+    "solhint": "^3.2.1",
+    "truffle": "^5.1.41"
+  },
+  "dependencies": {}
+}
