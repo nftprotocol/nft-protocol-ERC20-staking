@@ -44,7 +44,8 @@ contract NFTStaking {
   uint256 public constant maxStakingAmount = 1000000 * 1 ether;
 
   constructor (address nftAddress) public {
-    //NFTProtocol = IERC20(0xB5a9f4270157BeDe68070df7A070525644fc782D);
+    //NFTProtocol = IERC20(0xB5a9f4270157BeDe68070df7A070525644fc782D); // Kovan
+    //NFTProtocol = IERC20(0xcB8d1260F9c92A3A545d409466280fFdD7AF7042); // Mainnet
     NFTProtocol = IERC20(nftAddress);
     governance = msg.sender;
   }
