@@ -1,3 +1,6 @@
 secrets.json
 build
 Session.vim
+node_modules
+
+.openzeppelin/.session

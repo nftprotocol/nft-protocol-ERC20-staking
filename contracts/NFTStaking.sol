@@ -129,4 +129,8 @@ contract NFTStaking {
     return totalYield;
   }
 
+  function getUserDeposits(address userAddress) external view returns(userDeposit[] memory) {
+    return userDeposits[userAddress];
+  }
+
 }
